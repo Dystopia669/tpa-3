@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(40, 38, 38);
+    color: rgb(32, 30, 30);
+}
+
+
+
+#section-film {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.card {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.card-body {
+    display: block;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.rating {
+    display: grid;
+    color: brown;
+}
+
+img {
+    max-width: 150px;
+}
+
+.pagination {
+    justify-content: center;
+}
